@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-  Bowers News
-</title>
 <style>
+body {
+  font-size: 28px;
+}
+
 ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -28,24 +29,30 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover {
   background-color: #111;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #4CAF50;
 }
 </style>
 </head>
 <body>
 
+<div class="header">
+  <h1>Bowers News</h1>
+  <p>A Bowers news production</p>
+</div>
+
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
 </ul>
 
+<h3><strong>Agenda for the Week</strong></h3>
+<p>[insert current agenda iframe]</p>
 </body>
 </html>
 
