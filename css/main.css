@@ -39,6 +39,11 @@ li a:hover:not(.active) {
 
 .active {
   background-color: dodgerblue;
+  transition: 0.15s;
+}
+
+.active:hover {
+  transform: scale(1.02);
 }
 
 .container {
