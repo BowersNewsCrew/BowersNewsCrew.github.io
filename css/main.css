@@ -78,10 +78,10 @@ li a:hover:not(.active) {
   text-align: center;
 }
 
-.container {
+.scaleHover {
   transition: 0.15s;
 }
 
-.container:hover {
+.scaleHover:hover {
   transform: scale(1.02);
 }
