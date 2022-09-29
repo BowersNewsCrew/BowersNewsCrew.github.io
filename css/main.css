@@ -6,7 +6,6 @@ body {
   font-size: 28px;
   color: white;
   background: black;
-  overflow: hidden;
 }
 
 ul {
@@ -52,6 +51,7 @@ li a:hover:not(.active) {
   height: 120px;
   background: dodgerblue;
   transition: 0.15s;
+  overflow: hidden;
 }
 
 .container:hover {
