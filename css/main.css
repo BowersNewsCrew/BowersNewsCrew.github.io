@@ -6,6 +6,7 @@ body {
   font-size: 28px;
   color: white;
   background: black;
+  overflow-x: hidden;
 }
 
 ul {
@@ -40,7 +41,6 @@ li a:hover:not(.active) {
 .active {
   background-color: dodgerblue;
   transition: 0.15s;
-  overflow: hidden;
 }
 
 .active:hover {
@@ -52,7 +52,6 @@ li a:hover:not(.active) {
   height: 120px;
   background: dodgerblue;
   transition: 0.15s;
-  overflow: hidden;
 }
 
 .banner:hover {
