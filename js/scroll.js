@@ -1,7 +1,7 @@
-var schedule = document.getElementsByClassName("container")[0];
+var container = document.getElementsByClassName("container")[0];
 
 window.onscroll = function () {
-    if (window.pageYOffset > 40) {
-      schedule.classList.remove("blur");
+    if (window.scrollY > 50) {
+      container.classList.remove("blur");
     }
 };
