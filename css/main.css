@@ -77,3 +77,11 @@ li a:hover:not(.active) {
   margin-bottom: 60px; 
   text-align: center;
 }
+
+.container {
+  transition: 0.15s;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
