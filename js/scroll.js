@@ -4,5 +4,5 @@ window.onscroll = function () {
     if (window.scrollY >= 40) {
       container.classList.remove("blur");
     }
-    alert(window.scrollY);
+    //alert(window.scrollY);
 };
